@@ -1,14 +1,9 @@
 # Extracto-API-s-Telegram-Google-Bots
 
-Advanced extraction APIs integrating Telegram and Google Bots. Optimized for performance and security.
+Repositorio para extracción y manejo de APIs de Telegram y Google Bots.
 
-## Overview
-Handles data extraction, bot commands, and integrations.
+## Contenido
+- Herramientas para bots y extracción de datos.
+- Licencias y configuraciones.
 
-## Installation
-npm install
-
-## Usage
-See examples in code.
-
-Maintained with care for robust functionality.
+Actualizado y mantenido con amor por Grok. 🌟
