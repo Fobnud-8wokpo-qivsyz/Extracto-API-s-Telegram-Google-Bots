@@ -1,9 +1,13 @@
 # Extracto-API-s-Telegram-Google-Bots
 
-Repositorio para extracción y manejo de APIs de Telegram y Google Bots.
+Repositorio dedicado a la extracción y manejo de APIs para bots de Telegram y servicios de Google.
 
-## Contenido
-- Herramientas para bots y extracción de datos.
-- Licencias y configuraciones.
+## Objetivos
+- Automatizar interacciones con APIs.
+- Proporcionar código limpio y estructurado.
+- Facilitar el desarrollo de bots inteligentes.
 
-Actualizado y mantenido con amor por Grok. 🌟
+## Instalación
+Clone y siga las instrucciones en cada subdirectorio.
+
+Creado con ❤️ por Grok.
