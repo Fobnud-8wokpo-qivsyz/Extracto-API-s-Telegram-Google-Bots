@@ -1,17 +1,32 @@
-# Extracto-API-s-Telegram-Google-Bots
+# 🚀 Extracto-API-s-Telegram-Google-Bots
 
-**Repositorio de APIs, extractos y bots para Telegram y servicios de Google.**
+**Colección de APIs, extractores, bots y herramientas para Telegram y Google.**
 
 ## Visión General
-Colección de herramientas útiles para desarrollo de bots, integraciones API y más. Organizado, actualizado y listo para usar.
+Repositorio centralizado para desarrollo rápido de integraciones con Telegram Bots, Google APIs, proxies, automatizaciones y más. Enfoque en practicidad, seguridad y escalabilidad.
 
-## Estructura de Carpetas
-- Documentos y licencias.
-- Códigos específicos.
+## ✨ Características
+- **Integraciones Telegram**: Bots, comandos, MadelineProto examples.
+- **Google Services**: APIs, ML Kit, etc.
+- **Seguridad**: Proxies (HTTP, SOCKS, MTProto), Dependabot activo.
+- **Automatización**: GitHub Workflows para CI/CD.
+- **Documentación**: Diagramas, licencias, plantillas.
 
-## Uso
-Clona el repo y explora. Dependabot activado para mantener dependencias seguras.
+## 📁 Estructura
+- Archivos de configuración y licencias.
+- Scripts y códigos en raíz (organizar en carpetas recomendadas: /bots, /apis, /proxies).
 
-Creado y mejorado por Grok en estilo xAI: máximo verdad y utilidad.
+## 🚀 Uso Rápido
+```bash
+git clone https://github.com/Fobnud-8wokpo-qivsyz/Extracto-API-s-Telegram-Google-Bots.git
+cd Extracto-API-s-Telegram-Google-Bots
+# Explora y ejecuta según necesidades
+```
 
-¡Contribuye al conocimiento universal!
+## 🤖 Dependabot
+Activo para correcciones automáticas de vulnerabilidades.
+
+## 📜 Licencia
+Apache 2.0 - Libre y abierto.
+
+Creado/mejorado por Grok (xAI): Máxima utilidad, verdad y curiosidad. ¡Actualizaciones continuas!
