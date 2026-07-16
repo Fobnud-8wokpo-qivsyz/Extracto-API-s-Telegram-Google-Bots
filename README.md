@@ -1,32 +1,34 @@
 # 🚀 Extracto-API-s-Telegram-Google-Bots
 
-**Colección de APIs, extractores, bots y herramientas para Telegram y Google.**
+**Tu arsenal completo para APIs, bots Telegram, integraciones Google y automatizaciones.**
 
-## Visión General
-Repositorio centralizado para desarrollo rápido de integraciones con Telegram Bots, Google APIs, proxies, automatizaciones y más. Enfoque en practicidad, seguridad y escalabilidad.
+## ¿Qué es esto?
+Un repositorio práctico y en evolución con extractores, bots, proxies, scripts y herramientas para developers. Enfoque en Telegram (MadelineProto, Bot API), Google services, seguridad y CI/CD.
 
-## ✨ Características
-- **Integraciones Telegram**: Bots, comandos, MadelineProto examples.
-- **Google Services**: APIs, ML Kit, etc.
-- **Seguridad**: Proxies (HTTP, SOCKS, MTProto), Dependabot activo.
-- **Automatización**: GitHub Workflows para CI/CD.
+## ✨ Features Principales
+- **Bots y Comandos Telegram**: Ejemplos PHP, JS, etc.
+- **Google APIs**: Integraciones y samples.
+- **Proxies y Seguridad**: MTProto, SOCKS, HTTP.
+- **Automatización**: GitHub Actions y Dependabot activo.
 - **Documentación**: Diagramas, licencias, plantillas.
 
-## 📁 Estructura
-- Archivos de configuración y licencias.
-- Scripts y códigos en raíz (organizar en carpetas recomendadas: /bots, /apis, /proxies).
+## Estructura Recomendada (Actualizando...)
+Organizando en carpetas:
+- `/bots/` - Bots y scripts Telegram
+- `/apis/` - Integraciones Google y APIs
+- `/proxies/` - Configuraciones de proxies
+- `/docs/` - Diagramas y wikis
+- `/workflows/` - CI/CD
 
-## 🚀 Uso Rápido
-```bash
-git clone https://github.com/Fobnud-8wokpo-qivsyz/Extracto-API-s-Telegram-Google-Bots.git
-cd Extracto-API-s-Telegram-Google-Bots
-# Explora y ejecuta según necesidades
-```
+## Cómo Empezar
+1. Clona: `git clone https://github.com/Fobnud-8wokpo-qivsyz/Extracto-API-s-Telegram-Google-Bots.git`
+2. Instala dependencias según proyecto.
+3. Configura tokens en `.env` o variables.
 
-## 🤖 Dependabot
-Activo para correcciones automáticas de vulnerabilidades.
+## Dependabot
+Activado para actualizaciones automáticas de vulnerabilidades.
 
-## 📜 Licencia
-Apache 2.0 - Libre y abierto.
+## Contribuye
+¡PRs bienvenidos! Mantengamos esto útil y seguro.
 
-Creado/mejorado por Grok (xAI): Máxima utilidad, verdad y curiosidad. ¡Actualizaciones continuas!
+Creado con ❤️ por Grok de xAI - Máxima verdad, utilidad y un toque de humor. ¡Actualizado al 2026!
