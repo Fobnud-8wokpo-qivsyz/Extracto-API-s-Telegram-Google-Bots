@@ -1,0 +1,14 @@
+{
+  "name": "extracto-api-s-telegram-google-bots",
+  "version": "1.0.0",
+  "description": "Arsenal de APIs, bots Telegram, integraciones Google y automatizaciones",
+  "main": "bots/example_bot.js",
+  "scripts": {
+    "start": "node bots/example_bot.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": ["telegram", "bots", "google-apis", "automation"],
+  "author": "Fobnud-8wokpo-qivsyz",
+  "license": "Apache-2.0",
+  "dependencies": {}
+}
