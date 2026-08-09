@@ -1,42 +1,89 @@
-# 🚀 Extracto-API-s-Telegram-Google-Bots
+# Extracto-API-s-Telegram-Google-Bots
 
-**Tu arsenal completo para APIs, bots Telegram, integraciones Google y automatizaciones potentes.**
+**Repo de práctica ejecutable:** bots y extractores listos para correr en local.  
+Enfoque: Telegram (Node) + hooks para Google/Notion cuando los necesites.
 
-## ¿Qué es esto?
-Un repositorio vivo y en constante evolución con extractores, bots, proxies, scripts y herramientas para developers. Enfoque principal en Telegram (MadelineProto, Bot API), Google Services, seguridad, proxies y CI/CD automatizado.
+---
 
-Creado con ❤️ y un toque de Grok (xAI): máximo truth-seeking, utilidad práctica y algo de humor cósmico.
+## Para qué sirve
 
-## ✨ Features Principales
-- **Bots Telegram**: Comandos, MadelineProto, automatizaciones.
-- **Google APIs**: Integraciones, samples y más.
-- **Proxies y Seguridad**: MTProto, SOCKS5, HTTP con auth.
-- **Automatización**: GitHub Actions, Dependabot activo para vulnerabilidades.
-- **Documentación**: Diagramas, licencias, plantillas listas para usar.
+| Uso | Detalle |
+|-----|---------|
+| Practicar bots | Long polling en Node, sin hosting obligatorio |
+| Extraer / automatizar | Punto de partida para scripts de APIs |
+| Probar comandos | `/start`, `/help`, `/ping` de inmediato |
 
-## Estructura del Proyecto (Optimizada)
+**Este repo es el “laboratorio”.**  
+Plantillas y teoría de comandos → [Telegram-Comandos-](https://github.com/Fobnud-8wokpo-qivsyz/Telegram-Comandos-)  
+Referencia de APIs (Google, Notion, PHP) → [Api-sGoogle](https://github.com/Fobnud-8wokpo-qivsyz/Api-sGoogle)
+
+---
+
+## Estructura
+
 ```
-├── bots/                  # Bots y scripts Telegram
-├── apis/                  # Integraciones Google y APIs generales
-├── proxies/               # Configs de proxies y seguridad
-├── docs/                  # Diagramas, wikis y guías
-├── .github/workflows/     # CI/CD pipelines
-├── LICENSE                # Licencias claras
-└── README.md
+Extracto-API-s-Telegram-Google-Bots/
+├── README.md
+├── package.json
+├── .env.example
+├── bots/
+│   └── example_bot.js      ← Bot de práctica (Node)
+├── docs/
+│   └── PRACTICA.md         ← Guía paso a paso
+└── .github/               ← Actions / Dependabot
 ```
 
-*(Carpetas incompletas serán completadas con código estructurado. Archivos sueltos se organizarán.)
+---
 
-## Cómo Empezar
-1. `git clone https://github.com/Fobnud-8wokpo-qivsyz/Extracto-API-s-Telegram-Google-Bots.git`
-2. Explora carpetas según necesidad.
-3. Configura variables de entorno (tokens Telegram/Google).
-4. Ejecuta y prueba bots/scripts.
+## Arranque rápido (5 minutos)
 
-## Dependabot y Seguridad
-Activado para actualizaciones automáticas de dependencias y corrección de vulnerabilidades. ¡Mantén todo seguro!
+```bash
+git clone https://github.com/Fobnud-8wokpo-qivsyz/Extracto-API-s-Telegram-Google-Bots.git
+cd Extracto-API-s-Telegram-Google-Bots
 
-## Contribuciones
-PRs, issues y forks bienvenidos. Hagamos esto la mejor herramienta para devs hispanohablantes y globales.
+cp .env.example .env
+# Edita .env → TELEGRAM_BOT_TOKEN=tu_token_de_BotFather
 
-¡Que la fuerza de las APIs te acompañe! 🌌 - Grok xAI, 2026
+npm install
+npm start
+```
+
+En Telegram, abre tu bot y escribe `/start`.
+
+---
+
+## Comandos del bot de ejemplo
+
+| Comando | Respuesta |
+|---------|-----------|
+| `/start` | Bienvenida |
+| `/help` | Lista de comandos |
+| `/ping` | `pong` + timestamp |
+| `/web` | Link a VIVIGEOSILHA |
+
+---
+
+## Variables de entorno
+
+Ver `.env.example`:
+
+- `TELEGRAM_BOT_TOKEN` — obligatorio para el bot
+- (Opcional más adelante) claves Google / Notion solo en servidor, nunca en front público
+
+---
+
+## Seguridad
+
+- No subas `.env` (debe estar en `.gitignore`).
+- Tokens solo en entorno local o secrets de CI.
+- Respeta los términos de uso de Telegram y de cada API.
+
+---
+
+## Licencia
+
+Apache-2.0 (ver `LICENSE`).
+
+---
+
+**Siguiente práctica:** añadir un comando `/prompt` que envíe el enlace de Experiencia Personalizada de VIVIGEOSILHA.

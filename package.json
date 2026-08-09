@@ -1,14 +1,18 @@
 {
   "name": "extracto-api-s-telegram-google-bots",
-  "version": "1.0.0",
-  "description": "Arsenal de APIs, bots Telegram, integraciones Google y automatizaciones",
+  "version": "1.1.0",
+  "description": "Laboratorio ejecutable: bots Telegram + extractores (práctica)",
   "main": "bots/example_bot.js",
   "scripts": {
     "start": "node bots/example_bot.js",
-    "test": "echo \"No tests yet\" && exit 0"
+    "bot": "node bots/example_bot.js",
+    "test": "node -e \"console.log('OK: sin tests automatizados aún')\""
   },
-  "keywords": ["telegram", "bots", "google-apis", "automation"],
+  "keywords": ["telegram", "bots", "api", "practica", "nodejs"],
   "author": "Fobnud-8wokpo-qivsyz",
   "license": "Apache-2.0",
-  "dependencies": {}
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "dotenv": "^16.4.5"
+  }
 }
