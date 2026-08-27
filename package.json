@@ -12,7 +12,7 @@
   "author": "Fobnud-8wokpo-qivsyz",
   "license": "Apache-2.0",
   "dependencies": {
-    "node-telegram-bot-api": "^0.66.0",
+    "node-telegram-bot-api": "^2.0.0",
     "dotenv": "^17.4.2"
   }
 }
